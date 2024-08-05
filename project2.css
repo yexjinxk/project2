@@ -1,0 +1,96 @@
+@import url(https://qwerewqwerew.github.io/source/style/reset.css);
+
+header,
+footer {
+  background-color: #fbdfdf;
+}
+section {
+  background-color: #ddd;
+}
+section:nth-child(odd) {
+  background-color: #555;
+}
+.wrap > *,
+section {
+  min-height: 500px;
+}
+.inner {
+  padding: 6% 95px;
+  margin: auto;
+  height: inherit;
+}
+
+/* ====================================
+============== components ===============
+==================================== */
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8.4rem;
+}
+.inner {
+  max-width: var(--layout);
+  margin: 0 auto;
+}
+
+/* ====================================
+============== header ===============
+==================================== */
+.gnb {
+  height: 8.4rem;
+  background-color: var(--gray_800);
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+.main_banner {
+  width: 100%;
+  height: 64.4rem;
+  left: 0;
+  top: 0;
+  background-color: var(--gray_600);
+}
+/* ====================================
+============== main ===============
+==================================== */
+section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.8rem;
+}
+section .sec_tit {
+  width: calc(var(--unit) * 3);
+  height: calc(var(--row) * 3);
+  background-color: var(--gray_800);
+  align-self: center;
+}
+/* ====================================
+    ============== swiper ===============    
+==================================== */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+main {
+  position: relative;
+  height: 100%;
+}
+
+section.vh100 {
+  width: 100%;
+  height: 100vh;
+  background: #ccc;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}

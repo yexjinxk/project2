@@ -1,0 +1,203 @@
+@import url(https://qwerewqwerew.github.io/source/style/reset.css);
+header,
+footer {
+  background-color: #000;
+}
+section {
+  background-color: #ddd;
+}
+section:nth-child(2) {
+  background-color: #555;
+}
+header,
+section {
+  min-height: 500px;
+  height: 745.6px;
+  box-sizing: border-box;
+}
+.inner {
+  padding: 6% 95px;
+  margin: auto;
+  height: inherit;
+}
+/* ====================================
+============== components ===============
+==================================== */
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+/* nav > .inner {
+  height: 7.5rem;
+  padding: 0 4rem;
+} */
+.inner {
+  /* opacity: 0.2; */
+  height: inherit;
+  padding: 0 4rem;
+}
+.df {
+  display: flex;
+  align-items: center;
+}
+/* ====================================
+============== header ===============
+==================================== */
+.gnb {
+  height: 10rem;
+  background-color: var(--gray_800);
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.inner h1 a {
+  display: block;
+  width: 130px;
+  height: 55px;
+  background: url(./imgs/logo1\ .png) no-repeat;
+  text-indent: -9999px;
+}
+.inner ul {
+  /* margin-left: 2.5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner ul li {
+  margin: 0 2.1rem;
+}
+.inner ul li a {
+  position: relative;
+  display: block;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 100px;
+}
+.inner .snb {
+  position: absolute;
+  align-items: center;
+  right: 2%;
+}
+.inner .snb .language ul li {
+  margin: 0 1rem;
+}
+.snb .language {
+  margin-right: 40px;
+}
+.snb .language ul .on {
+  color: #fff;
+}
+.snb .language ul li a {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.snb .contact a {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 13px;
+}
+.snb .btn {
+  position: relative;
+  margin-left: 4.6rem;
+}
+.snb .btn div {
+  width: 100%;
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+}
+.snb .btn div span {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.main_banner {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url(./imgs/main_visual1.jpg);
+  background-size: cover;
+}
+.main_banner .inner .titlewrap {
+  width: 100%;
+  position: absolute;
+  top: 36%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.titlewrap h3 {
+  font-size: 140px;
+  color: #fff;
+  font-family: "Wix Madefor Display";
+  font-weight: 700;
+  margin-bottom: -107px;
+}
+.titlewrap h3.text2{
+    margin-left: 34.5rem;
+}
+.titlewrap h3.text3{
+    margin-left: 12rem;
+}
+
+.inner p {
+  font-size: 22px;
+  color: #fff;
+  font-family: "Wix Madefor Display";
+  text-align: center;
+  margin-top: 42%;
+}
+.inner .detail {
+  text-align: center;
+}
+
+/* ====================================
+============== main ===============
+==================================== */
+section .sec_tit {
+  width: 229px;
+  height: 28px;
+  background-color: black;
+  align-self: self-start;
+}
+section .cardnews {
+  width: 100%;
+  height: 37.6rem;
+  margin-top: 30px;
+  background-color: black;
+}
+/* section .title_area.df, .cardnews {
+  margin-top: 9.2rem;
+} */
+
+.press_notice,
+.service,
+.facility {
+  margin-top: 8.9rem;
+}
+
+.press_notice .title_area {
+  width: 100%;
+  align-items: end;
+  justify-content: space-between;
+}
+.press_notice .title_area a {
+  width: 50px;
+  height: 28px;
+  background-color: black;
+}
+
+footer {
+  width: 100%;
+  height: 13rem;
+}
